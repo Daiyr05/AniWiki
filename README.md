@@ -47,10 +47,6 @@ After clonning:
  - 4.npm run dev
  - 5.open on browser http://localhost:5173/
 
-For backend:
- - 1.open intellij idea
- - 2.run the project
-
 ### Clone the project
 
 ```bash
