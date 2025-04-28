@@ -1,0 +1,157 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    h1 {
+      color: #000000;
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    p {
+      color: #7b7b7b;
+      margin: 5px 0 0 0;
+    }
+  }
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.news-block {
+  padding-bottom: 20px;
+  width: 30%;
+
+  &__main {
+    color: #333;
+    text-decoration: none;
+  }
+
+  &__img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__date {
+    color: #9d9d9d;
+  }
+
+  &__author {
+    color: #9d9d9d;
+    font-weight: bold;
+  }
+}
+
+.not-found {
+  padding: 100px;
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+
+  span {
+    font-size: 64px;
+  }
+}
+
+.search-root {
+  position: relative;
+}
+
+.search-input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  padding-left: 40px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.search-icon {
+  width: 22px;
+  height: 22x;
+  opacity: 0.3;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.close-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.pagination {
+  padding: 0;
+
+  li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      width: 45px;
+      line-height: 42px;
+      height: 45px;
+      border: 1px solid black;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:hover {
+          background-color: black;
+          color: #fff;
+      }
+    }
+  }
+
+  .selected {
+    a {
+        background-color: black;
+        color: #fff;
+    }
+  }
+}
