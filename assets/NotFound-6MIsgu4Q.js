@@ -1,0 +1,1 @@
+import{j as n}from"./index-BdA1zSjo.js";const o=()=>n.jsxs("div",{className:"not-found",children:[n.jsxs("h1",{children:[n.jsx("span",{children:"😕"}),n.jsx("br",{}),"Nothing found"]}),n.jsx("p",{children:"Unfortunately, this page is not available."})]});export{o as NotFound};
