@@ -2,7 +2,6 @@ import axios from 'axios';
 
 const API_BASE_URL = 'https://aniwikibackend-production.up.railway.app/api/anime';
 
-
 export const getPopularAnime = async () => {
   const response = await axios.get(`${API_BASE_URL}/popular`);
   return response.data.data; // <== double .data
